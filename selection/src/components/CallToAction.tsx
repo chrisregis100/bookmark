@@ -1,5 +1,3 @@
-import React from "react";
-
 const CallToAction = () => {
   return (
     <div className="bg-primary flex flex-col items-center px-2 justify-center h-80 w-full mt-20 py-10 text-white">

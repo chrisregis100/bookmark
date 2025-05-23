@@ -1,5 +1,3 @@
-import React from "react";
-
 const FrequentlyQuestions = () => {
   return (
     <div className="flex flex-col bg-secondary-content items-center justify-center gap-10 mt-20">

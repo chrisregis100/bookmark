@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import illustration_1 from "../assets/illustration-features-tab-1.svg";
 import illustration_2 from "../assets/illustration-features-tab-2.svg";
 import illustration_3 from "../assets/illustration-features-tab-3.svg";
