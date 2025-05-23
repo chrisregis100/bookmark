@@ -65,8 +65,8 @@ Ce projet simule un cas réel d'application web front-end, construite pour être
 Ouvrir  http://localhost:3000
 
 
-5. **Structure du projet **
-
+5. **Structure du projet**
+```
 ├── public/
 ├── src/
 │   ├── assets/
@@ -78,6 +78,7 @@ Ouvrir  http://localhost:3000
 ├── design/
 ├── README.md
 └── package.json
+```
 
 6. **Décisions techniques**
 -Utilisation de React pour sa simplicité et sa compatibilité avec les projets d’équipe.
