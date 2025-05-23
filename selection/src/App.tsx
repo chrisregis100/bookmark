@@ -10,9 +10,9 @@ import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen flex flex-col items-center w-full">
       <div className="w-full">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1440px] mx-auto px-4 lg:px-8">
           <Header />
         </div>
       </div>
@@ -20,19 +20,19 @@ function App() {
       <Hero />
 
       <div className="w-full">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1440px] mx-auto px-4 lg:px-8">
           <Features />
         </div>
       </div>
 
       <div className="w-full">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1440px] mx-auto px-4 lg:px-8">
           <Download />
         </div>
       </div>
 
       <div className="w-full">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1440px] mx-auto px-4  lg:px-8">
           <FrequentlyQuestions />
         </div>
       </div>

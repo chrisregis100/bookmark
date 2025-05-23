@@ -12,11 +12,11 @@ const CallToAction = () => {
       <div className="flex gap-3 flex-col px-12 md:flex-row w-full justify-center items-center mt-5">
         <input
           type="email"
-          className=" validator w-full  text-gray-600 input text-sm bg-white input-md "
+          className=" validator w-full md:w-auto  text-gray-600 input text-sm bg-white input-md "
           required
           placeholder="Enter your email address"
         />
-        <button className="bg-primary-content w-full hover:bg-white border-primary-content hover:text-primary-content hover:border-primary-content text-white btn ">
+        <button className="bg-primary-content w-full  md:w-auto hover:bg-white border-primary-content hover:text-primary-content hover:border-primary-content text-white btn ">
           Contact us
         </button>
         {/*         <div className="validator-hint">Enter valid email address</div>

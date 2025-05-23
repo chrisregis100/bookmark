@@ -46,7 +46,7 @@ const Features = () => {
 
         {/* Navigation des tabs */}
         <div role="tablist" className="flex justify-center mb-12">
-          <div className="tabs tabs-boxed tabs-border flex flex-col md:flex-row w-full border-b border-gray-400">
+          <div className="tabs tabs-boxed tabs-border flex flex-col md:flex-row  items-center justify-centerw-full border-b border-gray-400">
             {tabsData.map((tab, index) => (
               <button
                 key={index}

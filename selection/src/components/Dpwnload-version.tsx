@@ -11,7 +11,7 @@ type CardProps = {
 };
 const Card: React.FC<CardProps> = ({ title, image, version }) => {
   return (
-    <div className="card w-96 shadow-md bg-white">
+    <div className="card md:w-96 w-72 shadow-md bg-white">
       <figure className="px-10 pt-10">
         <img src={image} alt="image navigator" className="rounded-xl" />
       </figure>
